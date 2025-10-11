@@ -20,6 +20,7 @@ The binaries for `GCCBootstrapManual` have been built from upstream sources vers
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "macos"; ))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "macos"; ))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "freebsd"; ))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "freebsd"; ))`
 # Dependencies
 The following JLL packages are required by `GCCBootstrapManual`:
 
