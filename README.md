@@ -17,8 +17,8 @@ The binaries for `GCCBootstrapManual` have been built from upstream sources vers
 
 `GCCBootstrapManual` is available for the following platforms:
 
- - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "macos"; ))`
- - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "macos"; ))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "macos"; os_version = "20.0.0"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "macos"; os_version = "20.0.0"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "freebsd"; os_version = "14.1.0"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "freebsd"; os_version = "14.1.0"))`
 # Dependencies
