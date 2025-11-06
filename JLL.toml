@@ -32,17 +32,17 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:00de76e1c15470b30b0bbcfb20ad8bfdeb24dff4"
+    treehash = "sha1:6cfb9339b6282fe52ac723a1967e542f37ac7841"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:7e109c30dbf0d6cfd4d1710d250993f9dbea83c859add1d94501a41fa036c10c"
+        tarball_hash = "sha256:36a5714eababd31d83514a233da02f2e2ae7b46691836ceb8637627e537f968c"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-build_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:2edf4ac5e4736656de0217d3ce3672fdce763c6f"
+    treehash = "sha1:e3499df41bd495cbbad918f32e63354f30cc7b92"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:e2dc21952d95d5ea044ab29efceceb9a0ae6abcfaec6aaa9ac3958fb9c3640c5"
+        tarball_hash = "sha256:d3c005e46bbb6da69d1996a80724c6d6412ca6d4820b829b4528652d70235abc"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-extract_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -78,10 +78,10 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrapManual/patches-v14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:ff8ab515daa8abf573f0998554b58aeb120b0b96"
+    treehash = "sha1:ab600f2e27e7f1371a70d69d92959b5d4717377e"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e44b94c94907d1df3ab34da51fc01492554001e1170fca448a6d5b3d1b87c48b"
+        tarball_hash = "sha256:6b322c16d4b49a2e4ae0021621c31c674eb774a2784a5687925180fddf253562"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "GCCBootstrapManual"
@@ -112,17 +112,17 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f33d3fb2fa34d3c6518573f242bf3c55edad1716"
+    treehash = "sha1:36da1773bd6bf689b1226a7c74dfc4b4872a5562"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:0e7e0527de002e76153b3fcc394afa308bde2cfb2ed663239e500b97aa932669"
+        tarball_hash = "sha256:bf8837b1cf9cb8f6997f7c6c637e1ea386fbba3492c39f76e942fdf0df4b8c05"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-build_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:85037ad7a080a7a2d440ea0bf25a88325ddf0300"
+    treehash = "sha1:7c291274bf86590546252693c2cc44696c391ff9"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:7f1593bf7f7a339f542dda32f43741154fac6a7a53123172a2eb3ae47274154b"
+        tarball_hash = "sha256:5c88afad91726f234d6b60f05a584d0a23ad9bd110446f0db71b862fbd8443c3"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-extract_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
@@ -158,10 +158,10 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrapManual/patches-v14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:d9f9c4f5a5d85967247ec7f6d579ec8d1eff4fdd"
+    treehash = "sha1:48d9d8b847b54ccc8818ebdd912c3c5eb65af9ca"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:ed724de096c68c16037e74e48f34a696f12a5005ae0293eed9d2912222e34f06"
+        tarball_hash = "sha256:1cdf10327859df710924376a5cd69194b810034be506cd922f84e09d8e021158"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "GCCBootstrapManual"
@@ -192,17 +192,17 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:285d0a612c15b32761718ebb3dbac7386c4ef9e6"
+    treehash = "sha1:93750eb9f2bdd50a621222ce84f88ae2958d5668"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:0ad2926084d41e63d7070acec4689822deec4956d2d81ab4827ffeb610669f55"
+        tarball_hash = "sha256:6041793e81633f15aa0652e7833b8a67d0b7ed0ad00dc609a78dde662b5b4ed1"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-build_log-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:96acbdff9289f5a728dfc8a299cce7df775ebf20"
+    treehash = "sha1:5a7fe8cd579985e4a3a8cf65dbed377a6950ebff"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:650221908c9395b1ef12bba8a87444f1a45836e75c8faf583d43723a39fba91a"
+        tarball_hash = "sha256:7ae3d955fd30d2ae29c8ef532a7b457818aeb98068cb27005df87a580741db45"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-extract_log-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -241,7 +241,7 @@ src_version = "14.2.0"
     treehash = "sha1:09a7f7cc968aff5942ac2431f8805a036f533d9a"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:65e1909e57a9a03fe2ea3f529b86085149cc1d574dfe05b2f29ea04742d19b7f"
+        tarball_hash = "sha256:599391be74265b3aacadda295d08309164177a2c3933c84e4aead4cff3048910"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "GCCBootstrapManual"
@@ -272,17 +272,17 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:02c1d1874e2bcf9eebb46a9cf7525be2c6e6cbe7"
+    treehash = "sha1:27cf46f14050f9032f0e71292c21a71d7aff17ce"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:020012fda7bfbae8f7707caa192c289d21bd9148c0bc8798246492da4ba4c6c4"
+        tarball_hash = "sha256:d044e41524c8a2e9152bb0a9ac34bfffb4ef09745e76f18c0e9bf0714a3c2211"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-build_log-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:5f414a6c16fc0cb0d647e87f877630f26bfeb9b0"
+    treehash = "sha1:6505c6eac8c1e4b372004b10952f20e568ac85f9"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:70d08fda953479e6af0e4cd589ecdaf8d697793e55c2e8acbfb82b82f7e66e6a"
+        tarball_hash = "sha256:789ee60e5d5069017021b3fb2c77db66942ea4174ac97ad53515cb8e7ac1ef09"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-extract_log-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
@@ -321,5 +321,5 @@ src_version = "14.2.0"
     treehash = "sha1:6843d357a99edcfc750f4e9c261650c432756bac"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:91a813983d8378b0ba88c255d643446772acfc05ba69d0dfe06cda043e3f8a18"
+        tarball_hash = "sha256:771bfbeb91e66217f7e9da8d05ddf15bd02657d6aaee2b9066b65a96fa19adac"
         url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
