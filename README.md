@@ -12,14 +12,15 @@ The binaries for `GCCBootstrapManual` have been built from upstream sources vers
  - [https://mirrors.kernel.org/gnu/mpc/mpc-1.2.1.tar.gz](https://mirrors.kernel.org/gnu/mpc/mpc-1.2.1.tar.gz) (treehash: sha1:0368784a00a0b6be2f3a6443059158097d3b6b7d)
  - [https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.24.tar.bz2](https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.24.tar.bz2) (treehash: sha1:a1684fcd774f877bac6f8694f712180e19eca5b0)
  - [https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz](https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz) (treehash: sha1:b22c1e4e2413d9a0ec828a92c0b6efd29ecdafa5)
- - [/home/sabae/src/BB2/bootstrap/GCCBootstrapManual/patches-v14.2.0](/home/sabae/src/BB2/bootstrap/GCCBootstrapManual/patches-v14.2.0) (treehash: sha1:199ad424df5f68ca1028c1e29dda470be8f81781)
+ - [/media/share/dev/BinaryBuilder2/bootstrap/GCCBootstrapManual/patches-v14.2.0](/media/share/dev/BinaryBuilder2/bootstrap/GCCBootstrapManual/patches-v14.2.0) (treehash: sha1:199ad424df5f68ca1028c1e29dda470be8f81781)
 # Platforms
 
 `GCCBootstrapManual` is available for the following platforms:
 
- - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "macos"; ))`
- - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "macos"; ))`
- - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "freebsd"; ))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "macos"; os_version = "20.0.0"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("aarch64", "macos"; os_version = "20.0.0"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "freebsd"; os_version = "14.1.0"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("aarch64", "freebsd"; os_version = "14.1.0"))`
 # Dependencies
 The following JLL packages are required by `GCCBootstrapManual`:
 
