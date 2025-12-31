@@ -1,27 +1,15 @@
 [[GCCBootstrapManual]]
 arch = "x86_64"
-git-tree-sha1 = "0fd760bc35034e4a322d78567563f5365df8c47e"
-libc = "glibc"
-os = "linux"
-target_arch = "x86_64"
-target_os = "macos"
-target_os_version = "20.0.0"
-
-    [[GCCBootstrapManual.download]]
-    sha256 = "3031e833d2a7735ee7cb3217a36e14821d0b4408104cf082ef6ded9a19e68fc5"
-    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+x86_64.tar.gz"
-[[GCCBootstrapManual]]
-arch = "x86_64"
-git-tree-sha1 = "ed9ecee80cce9d77fd51fbe55a9d1f1e77c2eaf6"
+git-tree-sha1 = "6843d357a99edcfc750f4e9c261650c432756bac"
 libc = "glibc"
 os = "linux"
 target_arch = "aarch64"
-target_os = "macos"
-target_os_version = "20.0.0"
+target_os = "freebsd"
+target_os_version = "14.1.0"
 
     [[GCCBootstrapManual.download]]
-    sha256 = "1ac9714f2ce3a3cd524fea3cd9f649b6eb7b45e6f365f18a758eacf80b6b9891"
-    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+aarch64.tar.gz"
+    sha256 = "69e2e45a76846348ceecad47ec5d04349de81980519e390cf6d39223ed881d59"
+    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 [[GCCBootstrapManual]]
 arch = "x86_64"
 git-tree-sha1 = "09a7f7cc968aff5942ac2431f8805a036f533d9a"
@@ -32,50 +20,49 @@ target_os = "freebsd"
 target_os_version = "14.1.0"
 
     [[GCCBootstrapManual.download]]
-    sha256 = "c100457e366c1f52d93e8eccb5450ad9fc467390ce09be24365fb4494eb6e756"
+    sha256 = "8d2089691a5dcaed065b13064fced934a4594b5c3df54237e112a69a6ee57b66"
     url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 [[GCCBootstrapManual]]
 arch = "x86_64"
-git-tree-sha1 = "6843d357a99edcfc750f4e9c261650c432756bac"
+git-tree-sha1 = "97c74fe626a7b9898148e08516c37f399f5979b1"
 libc = "glibc"
 os = "linux"
 target_arch = "aarch64"
-target_os = "freebsd"
-target_os_version = "14.1.0"
+target_os = "macos"
+target_os_version = "20.0.0"
 
     [[GCCBootstrapManual.download]]
-    sha256 = "ff6b664b07a71c79b7f41ce35371c4e0235c9d1a618e9de5ba8ce84bfd798cf7"
-    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
-
-[[GCCBootstrapManual-build_log]]
+    sha256 = "0499be8a029a497464370f0ed8b798edf9e31c15bce651848ea8607df6482be1"
+    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+aarch64.tar.gz"
+[[GCCBootstrapManual]]
 arch = "x86_64"
-git-tree-sha1 = "a3aa0ee8209f05e4c906f33fb2d90878fa7dc539"
-lazy = true
+git-tree-sha1 = "49209b9a4b53853da2bc9665816c2334e5db8ee0"
 libc = "glibc"
 os = "linux"
 target_arch = "x86_64"
 target_os = "macos"
 target_os_version = "20.0.0"
 
-    [[GCCBootstrapManual-build_log.download]]
-    sha256 = "85f11386a6e5d23caba26dd47439cf0a92cbdd94f03a5c44323eb33a1267dd2c"
-    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-build_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+x86_64.tar.gz"
+    [[GCCBootstrapManual.download]]
+    sha256 = "c9f72598dd69d5ec980474d48805089407cb796b8b881d888c61334c99f2a6d6"
+    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+x86_64.tar.gz"
+
 [[GCCBootstrapManual-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "08ff2f87e01cf8fd83debe4beb55da57e33cf45e"
+git-tree-sha1 = "f1f4f1ca3f49ecac8d31b41466f38a9d63247e5a"
 lazy = true
 libc = "glibc"
 os = "linux"
 target_arch = "aarch64"
-target_os = "macos"
-target_os_version = "20.0.0"
+target_os = "freebsd"
+target_os_version = "14.1.0"
 
     [[GCCBootstrapManual-build_log.download]]
-    sha256 = "0cd6d507a928851260b7d60da8953c58b3f413fb1a04453fda77d09c204bc6e5"
-    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-build_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+aarch64.tar.gz"
+    sha256 = "5e50366ce31c895235b91ec6e9c4d3594333955bd6b4bccc875066a26a0dfd19"
+    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-build_log-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 [[GCCBootstrapManual-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "e15dd160451b738e88c4b5800f0ae99bb668198a"
+git-tree-sha1 = "32f95ce535c1e61c94e8492bf72ad7747bf389b8"
 lazy = true
 libc = "glibc"
 os = "linux"
@@ -84,25 +71,24 @@ target_os = "freebsd"
 target_os_version = "14.1.0"
 
     [[GCCBootstrapManual-build_log.download]]
-    sha256 = "bdaa2c29de3b2c3e00dd922a0f80e3dce3ada566d81a460b85130be98a30dd79"
+    sha256 = "99302c1fea7b61c4f95d3dbc0466f7917ec8bf61c9c2d5328baa7d1ca14f4144"
     url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-build_log-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 [[GCCBootstrapManual-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "fc50aa35b3ff041600b1d908512d7d2dacaa0d06"
+git-tree-sha1 = "f0926ad94ea33637f4dc40862eef278bc947099f"
 lazy = true
 libc = "glibc"
 os = "linux"
 target_arch = "aarch64"
-target_os = "freebsd"
-target_os_version = "14.1.0"
+target_os = "macos"
+target_os_version = "20.0.0"
 
     [[GCCBootstrapManual-build_log.download]]
-    sha256 = "b03ca5b76b75bf3109b33fd0bff4051b29f30a058e7b15a7f774ea2057847661"
-    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-build_log-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
-
-[[GCCBootstrapManual-extract_log]]
+    sha256 = "110f8836ca3872c3a1a5aa8884d453fa5ddffdfb2bf4d1c0ac54d7320917e086"
+    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-build_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+aarch64.tar.gz"
+[[GCCBootstrapManual-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "6ff3e22b86478b5c2c8974729b25c485b894747a"
+git-tree-sha1 = "b802f1856fa6c14875f8cc54ce2c85503f45e845"
 lazy = true
 libc = "glibc"
 os = "linux"
@@ -110,25 +96,26 @@ target_arch = "x86_64"
 target_os = "macos"
 target_os_version = "20.0.0"
 
-    [[GCCBootstrapManual-extract_log.download]]
-    sha256 = "ba86cb8b4ea55f99205bba938d34b4ae472df7d671ce670fe9f4ee725bc8ae65"
-    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-extract_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+x86_64.tar.gz"
+    [[GCCBootstrapManual-build_log.download]]
+    sha256 = "cad851ba0a0526089937b41e9e7f6357f0fe8356557cf4565ec89d1f3027daea"
+    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-build_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+x86_64.tar.gz"
+
 [[GCCBootstrapManual-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "52d925592deedf14dc5fd3fb9e5ef7748035edfe"
+git-tree-sha1 = "6d1aed91413f29d9c9428bec4c287ea79a4641e8"
 lazy = true
 libc = "glibc"
 os = "linux"
 target_arch = "aarch64"
-target_os = "macos"
-target_os_version = "20.0.0"
+target_os = "freebsd"
+target_os_version = "14.1.0"
 
     [[GCCBootstrapManual-extract_log.download]]
-    sha256 = "699f627f474d02039937a9d0cd78bce7a785b911170dfe67ffe7b93782967b5e"
-    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-extract_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+aarch64.tar.gz"
+    sha256 = "1385ce2814834fd94dd22e208cd427da43ca74f7ec05ea21f63db0f3551049ad"
+    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-extract_log-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 [[GCCBootstrapManual-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "205bbecbba627f552d999492b039b3026bbc5e23"
+git-tree-sha1 = "d9eabf89af08b8e595b14616b93d24f03da2317d"
 lazy = true
 libc = "glibc"
 os = "linux"
@@ -137,18 +124,31 @@ target_os = "freebsd"
 target_os_version = "14.1.0"
 
     [[GCCBootstrapManual-extract_log.download]]
-    sha256 = "d1b7cedb4aff710baf0af6851e2b9aa8362f4807d58d78e39738722f39255a72"
+    sha256 = "503cde2a03159833ae6ed64ca0d56a8b13d3908d0d2d52c2ed9a7bdd051d3e7d"
     url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-extract_log-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 [[GCCBootstrapManual-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "06d2bc56be366cf808447d5d61962f78dc7dfc88"
+git-tree-sha1 = "0baea0c54eefd438f5cc7362ab28764974f1b5ea"
 lazy = true
 libc = "glibc"
 os = "linux"
 target_arch = "aarch64"
-target_os = "freebsd"
-target_os_version = "14.1.0"
+target_os = "macos"
+target_os_version = "20.0.0"
 
     [[GCCBootstrapManual-extract_log.download]]
-    sha256 = "4f1db14426bae121735ed3c75e754ba0c790148ab9e7a3ae370724a30daf5bf2"
-    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-extract_log-v14.2.0-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
+    sha256 = "ba73348b56cc4cad340dd6e2c5175c28e346ccd38c00e6e624133fc1202918d2"
+    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-extract_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+aarch64.tar.gz"
+[[GCCBootstrapManual-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "00d2ef849a37ceb33a4940d13a11405cec866560"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "macos"
+target_os_version = "20.0.0"
+
+    [[GCCBootstrapManual-extract_log.download]]
+    sha256 = "8a936fe94a40d3ff00f7de25dada67b8b50120371364747955be68c224e61f59"
+    url = "https://github.com/staticfloat/GCCBootstrapManual_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrapManual-extract_log-v14.2.0-x86_64-linux-gnu-target_os+macos-target_os_version+20.0.0-target_arch+x86_64.tar.gz"
